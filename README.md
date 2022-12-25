@@ -260,6 +260,14 @@ sudo usermod --shell $(which fish) USERNAME
 # exit and ssh again, to use fish shell
 ```
 
+### Install ruby
+
+1) sudo dnf install gcc make git-core zlib zlib-devel gcc-c++ patch readline readline-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel -y
+2) git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+3) echo 'status --is-interactive; and ~/.rbenv/bin/rbenv init - fish | source' >> ~/.config/fish/config.fish
+4) exec $SHELL
+
+
 ### Install Nodejs
 
 (https://nodejs.org/en/download/)
