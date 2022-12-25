@@ -175,6 +175,7 @@ rsync --archive --chown=USERNAME:USERNAME ~/.ssh /home/USERNAME
 ```
 
 ###### OR
+go to home directory of USERNAME!
 
 ```bash
 # (700 only current user can Read Write Execute)
